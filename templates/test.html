@@ -1,0 +1,7 @@
+
+							<select class="input search-categories">
+								<option>All Categories</option>
+								{% for category in category_all %}
+								<option value="0"><a href="#">{{ category.title }}</a></option>
+								{% endfor %}
+							</select>
